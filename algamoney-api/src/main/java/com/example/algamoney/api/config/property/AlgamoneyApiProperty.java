@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class AlgamoneyApiProperty {
 
-	private String originPermitida = "http://localhost:4200/";
+	private String originPermitida = "https://agile-fjord-35937.herokuapp.com";
 
 	private final Seguranca seguranca = new Seguranca();
 
